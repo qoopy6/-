@@ -1,32 +1,20 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <style>
-        /* すべてのボタンに適用 */
-        button, input[type="button"] {
-            font-size: 60px; /* フォントサイズ */
-            padding: 45px 90px; /* ボタン内の余白 */
-            width: 750px; /* ボタンの幅 */
-            height: 210px; /* ボタンの高さ */
-            background-color: #4CAF50; /* 背景色 */
-            color: white; /* テキストの色 */
-            border: none; /* 枠線をなくす */
-            border-radius: 8px; /* 角丸 */
-            cursor: pointer; /* カーソルを指に変更 */
-            margin: 30px 0; /* ボタンの上下間隔 */
-        }
+/* style.css */
 
-        /* ボタンにホバー効果を追加 */
-        button:hover, input[type="button"]:hover {
-            background-color: #45a049; /* ホバー時の背景色 */
-        }
-    </style>
-</head>
-<body>
-    <button class="button" onclick="location.href='BR.html'">武器</button>
-    <button class="button" onclick="location.href='teeeeeeeeest.html'">キャラ</button>
-    <form><input type="button" value="アモ" onclick="AMO()"></form>
-    <form><input type="button" value="武器種" onclick="Weapon()"></form>
-</body>
-</html>
+/* すべてのボタンに適用 */
+button, input[type="button"] {
+    font-size: 20px; /* フォントサイズ */
+    padding: 15px 30px; /* ボタンの内側の余白（上下、左右） */
+    width: 250px; /* ボタンの幅 */
+    height: 70px; /* ボタンの高さ */
+    background-color: #4CAF50; /* 背景色 */
+    color: white; /* テキストの色 */
+    border: none; /* 枠線をなくす */
+    border-radius: 8px; /* 角丸 */
+    cursor: pointer; /* カーソルを指に変更 */
+    margin: 10px 0; /* ボタンの上下のマージン */
+}
+
+/* ボタンにホバー効果を追加 */
+button:hover, input[type="button"]:hover {
+    background-color: #45a049; /* ホバー時の背景色 */
+}
