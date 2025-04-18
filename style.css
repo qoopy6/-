@@ -1,0 +1,18 @@
+/* style.css */
+
+/* ボタンのデザイン */
+.button {
+    font-size: 20px; /* フォントサイズ */
+    padding: 15px 30px; /* ボタンの内側の余白（上下、左右） */
+    width: 200px; /* ボタンの幅 */
+    height: 60px; /* ボタンの高さ */
+    background-color: #4CAF50; /* 背景色 */
+    color: white; /* テキストの色 */
+    border: none; /* 枠線をなくす */
+    border-radius: 8px; /* 角丸 */
+    cursor: pointer; /* カーソルを指に変更 */
+}
+
+.button:hover {
+    background-color: #45a049; /* ホバー時の背景色 */
+}
