@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+function Weapon() {
+    rand = Math.floor(Math.random()*5);
+    if (rand == 0) msg = "1.近接戦";
+    if (rand == 1) msg = "2.重武装";
+    if (rand == 2) msg = "3.アサルト";
+    if (rand == 3) msg = "4.特技兵";
+    if (rand == 4) msg = "5.遠距離";
+    alert(msg);
+}
+
+function Character() {
+    rand = Math.floor(Math.random()*26);
+    if (rand == 0) msg = "ブラッドハウンド";
+    if (rand == 1) msg = "ジブラルタル";
+    if (rand == 2) msg = "ライフライン";
+    if (rand == 3) msg = "パスファインダー";
+    if (rand == 4) msg = "レイス";
+    if (rand == 5) msg = "バンガロール";
+    if (rand == 6) msg = "コースティック";
+    if (rand == 7) msg = "ミラージュ";
+    if (rand == 8) msg = "オクタン";
+    if (rand == 9) msg = "ワットソン";
+    if (rand == 10) msg = "クリプト";
+    if (rand == 11) msg = "レヴナント";
+    if (rand == 12) msg = "ローバ";
+    if (rand == 13) msg = "ランパート";
+    if (rand == 14) msg = "ホライゾン";
+    if (rand == 15) msg = "ヒューズ";
+    if (rand == 16) msg = "ヴァルキリー";
+    if (rand == 17) msg = "シア";
+    if (rand == 18) msg = "アッシュ";
+    if (rand == 19) msg = "マッドマギー";
+    if (rand == 20) msg = "ニューキャッスル";
+    if (rand == 21) msg = "ヴァンテージ";
+    if (rand == 22) msg = "カタリスト";
+    if (rand == 23) msg = "バリスティック";
+    if (rand == 24) msg = "コンジット";
+    if (rand == 25) msg = "オルター";
+
+    alert(msg);
+}
+
+function DB() {
+    rand = Math.floor(Math.random()*3);
+    if (rand == 0) msg = "ジブラルタル";
+    if (rand == 1) msg = "コースティック";
+    if (rand == 2) msg = "ニューキャッスル";
+    alert(msg);
+}
+</script>
+</head>
+<body>
+    <form><input type="button" value="武器" onclick="Weapon()"></form>
+    <form><input type="button" value="キャラ" onclick="Character()"></form>
+    <form><input type="button" value="デブ" onclick="DB()"></form>
+    <button class="button" onclick="location.href='BR.html'">BR</button>
+ </body>
+</html>
