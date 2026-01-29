@@ -75,12 +75,77 @@
             if (rand == 35) msg = "投擲物縛り";
             alert(msg);
         }
+        function Sniper_and_Arrow() {
+            var rand = Math.floor(Math.random()*5);
+            var msg = "";
+            if (rand == 0) msg = "チャージライフル";
+            if (rand == 1) msg = "ウィングマン";
+            if (rand == 2) msg = "ロングボウ";
+            if (rand == 3) msg = "センチネル";
+            if (rand == 4) msg = "ボセック";
+            alert(msg);
+        }
+
+function ShotGun() {
+            var rand = Math.floor(Math.random()*4);
+            var msg = "";
+            if (rand == 0) msg = "ピースキーパー";
+            if (rand == 1) msg = "マスティフ";
+            if (rand == 2) msg = "EVA-8";
+            if (rand == 3) msg = "モザンビーク";
+            alert(msg);
+        }
+
+function Light() {
+            var rand = Math.floor(Math.random()*7);
+            var msg = "";
+            if (rand == 0) msg = "P2020";
+            if (rand == 1) msg = "RE-45";
+            if (rand == 2) msg = "オルタネーター";
+            if (rand == 3) msg = "R-99";
+            if (rand == 4) msg = "R-301";
+            if (rand == 5) msg = "スピットファイア";
+            if (rand == 6) msg = "G7";
+            alert(msg);
+        }
+
+function Heavy() {
+            var rand = Math.floor(Math.random()*6);
+            var msg = "";
+            if (rand == 0) msg = "car";
+            if (rand == 1) msg = "30-30";
+            if (rand == 2) msg = "ランページ";
+            if (rand == 3) msg = "プラウラー";
+            if (rand == 4) msg = "ヘムロック";
+            if (rand == 5) msg = "フラットライン";
+            alert(msg);
+        }
+
+function Energie() {
+            var rand = Math.floor(Math.random()*7);
+            var msg = "";
+            if (rand == 0) msg = "ディヴォーション";
+            if (rand == 1) msg = "ハボック";
+            if (rand == 2) msg = "L-スター";
+            if (rand == 3) msg = "ボルト";
+            if (rand == 4) msg = "トリプルテイク";
+            if (rand == 5) msg = "ネメシス";
+            if (rand == 6) msg = "RE-45";
+            alert(msg);
+        }
     </script>
 </head>
 <body>
     <form><input type="button" value="弾薬からランダム" onclick="AMO()"></form>
     <form><input type="button" value="武器種からランダム" onclick="Weapon()"></form>
+    <form><input type="button" value="スナイパー+ボセックからランダム" onclick="Sniper_and_Arrow()"></form>
+    <form><input type="button" value="ショットガンからランダム" onclick="ShotGun()"></form>
+    <form><input type="button" value="ライトからランダム" onclick=Light()"></form>
+    <form><input type="button" value="ヘビーからランダム" onclick=Heavy()"></form>
+    <form><input type="button" value="エネルギーからランダム" onclick=Energie()"></form>
+
 <button class="button" onclick="location.href='teeeeeeeeest.html'">ミックステープの武器とキャラ</button>
 </body>
 </html>
+
 
